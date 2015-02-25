@@ -31,7 +31,7 @@ public class NaiveDijkstra implements ShortestPathAlgorithm {
 		int destinationsVisitedCount = destinations.length;
 		
 		for (int i = 0; i < destinations.length; ++i) {
-				destinationsVisited[destinations[i]] = true;
+			destinationsVisited[destinations[i]] = true;
 		}
 		
 		for (int i = 0; i < distances.length; ++i) {
