@@ -1,6 +1,6 @@
 package sp.spt;
 
-public class Queue {
+public class LIFOQueue {
 	int[] array = new int[4];
 	public int size = 0;
 	

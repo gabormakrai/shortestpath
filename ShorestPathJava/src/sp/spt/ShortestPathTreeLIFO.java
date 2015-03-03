@@ -3,10 +3,10 @@ package sp.spt;
 import sp.Graph;
 import sp.ShortestPathAlgorithm;
 
-public class ShortestPathTree implements ShortestPathAlgorithm {
+public class ShortestPathTreeLIFO implements ShortestPathAlgorithm {
 
 	Graph graph;
-	Queue queue = new Queue();;
+	LIFOQueue queue = new LIFOQueue();
 	
 	@Override
 	public void init(Graph graph) {
